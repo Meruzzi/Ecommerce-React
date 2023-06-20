@@ -12,7 +12,7 @@ export default function ConteudoProduto(props) {
       </div>
       <div className={style.conteudoCard} id='cardInfCompra'>
         <h2 className='nomeProduto'>{props.nomeProduto}</h2>
-        <p>{/* Adicionar onclick levando para a sessao nota */}Nota do produto: {props.notaProduto}</p>
+        <p><a href='#cardAvaliacaoPdt'>Nota do produto: {props.notaProduto}</a></p>
         <h3>R${props.precoProdutoAvista}</h3>
         <p>no PIX (5% de desconto)</p>
         <p>ou <span style={styleBold}>R${props.precoProdutoPrazo}</span> em 10x de <span style={styleBold}>R${props.precoProdutoParcelas}</span> sem juros.</p>
