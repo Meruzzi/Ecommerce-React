@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "usuario": "João",
+    "data_publicacao": "18/06/2023",
+    "mensagem": "Adorei o novo produto! A qualidade é incrível e atendeu a todas as minhas expectativas. Recomendo a todos!",
+    "nota": 4.5
+  },
+  {
+    "id": 2,
+    "usuario": "Maria",
+    "data_publicacao": "17/06/2023",
+    "mensagem": "Esse produto superou minhas expectativas! É realmente fantástico. Estou muito satisfeita com a compra.",
+    "nota": 5
+  },
+  {
+    "id": 3,
+    "usuario": "Pedro",
+    "data_publicacao": "16/06/2023",
+    "mensagem": "O produto é bom, mas esperava um pouco mais. A entrega foi rápida e o atendimento também foi bom.",
+    "nota": 3.5
+  }
+]

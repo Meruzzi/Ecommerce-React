@@ -1,0 +1,33 @@
+.cardConteudoProduto {
+  display: grid;
+  grid-template-areas: 
+    'imgProduto'
+    'conteudoCard';
+  padding: 5px;
+}
+
+.imgProduto {
+  width: 100%;
+}
+
+.conteudoCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnComprar {
+  width: 90%;
+  max-width: 800px;
+  background-color: #0086FF;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .btnComprar {
+    margin: 5px 0;
+  }
+}

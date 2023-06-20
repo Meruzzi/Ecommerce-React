@@ -1,0 +1,108 @@
+header {
+  display: grid;
+  grid-template-areas:
+    'btnMenu logoStore btnCrr'
+    'inptSearch inptSearch inptSearch'
+    'navBar navBar navBar';
+  align-items: center;
+  background-color: #0086FF;
+}
+
+.btnHeader {
+  cursor: pointer;
+  width: 25px;
+  margin: 5px;
+}
+
+#inptSearch {
+  grid-area: inptSearch;
+  margin: 0px 5px;  
+}
+
+.navBar {
+  grid-area: navBar;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navUl {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+  list-style: none;
+}
+
+.navItem {
+  display: none;
+  padding: 3px;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #0086FF;
+  border-radius: 10px;
+}
+
+.ativo {
+  display: block;
+}
+.ativo .navItem {
+  display: block;
+}
+
+@media (min-width: 500px) {
+  header {
+    grid-template-areas:
+      'logoStore inptSearch btnCrr'
+      'navBar navBar navBar';
+      justify-content: center;
+  }
+
+  #logoStore {
+    grid-area: logoStore;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  #inptSearch {
+    width: 25vw;
+    max-width: 400px;
+    justify-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  #btnCrr {
+    grid-area: btnCrr;
+    justify-self: right;
+    padding-right: 10px;
+  }
+  
+  #btnNavBar {
+    display: none;
+  }
+
+  .navUl {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .navItem {
+    display: block;
+  }
+
+}
+
+@media (max-width: 500px) {
+  #btnCrr {
+    justify-self: right;
+  }
+  
+#logoStore {
+  justify-self: center;
+}
+  
+}

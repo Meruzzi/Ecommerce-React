@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 3.5vw, 3.0rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 3.2vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2.5vw, 1.8rem);
+}
+
+h4 {
+  font-size: clamp(1.3rem, 2.5vw, 1.5re)
+}
+
+p {
+  font-size: clamp(1rem, 2.0vw, 1.1rem);
+}
+
+span {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+ul {
+  list-style: none;
+}
+
+.cardInfProduto {
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px #888888;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.titleCardInf {
+  padding: 3px 0;
+}
+
+.conteudoCardInf {
+  text-indent: 20px;
+  line-height: 1.2;
+  font-size: clamp(1rem, 2.0vw, 1.1rem);
+}
+
+.oculto {
+  display: none;
+}
+
+.visivel {
+  display: block;
+}
+
+.btnLerMais {
+  color: #0086FF;
+  cursor: pointer;
+}
+
+.styleBoldTitle {
+  font-weight: bold;
+  font-size: clamp(1.0rem, 2vw, 1.1rem);
+}
+
+.cardBtnComprar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+main {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'cardContProduto cardContProduto'
+    'cardDescricaoPdt cardDescricaoPdt'
+    'cardAvaliacaoPdt cardAvaliacaoPdt'
+    'cardPerguntas cardPerguntas'
+    'cardInfVendedor cardInfVendedor'
+    'cardPdtRelacionados cardPdtRelacionados'
+    'footer footer';
+}
+  #header {
+    grid-area: header;
+  }
+  #cardDescProduto {
+    grid-area: cardDescProduto;
+  }
+  #cardDescricaoPdt {
+    grid-area: cardDescricaoPdt;
+  }
+  #cardAvaliacaoPdt {
+    grid-area: cardAvaliacaoPdt;
+  }
+  #cardPerguntas {
+    grid-area: cardPerguntas;
+  }
+  #cardInfVendedor {
+    grid-area: cardInfVendedor;
+  }
+  #cardPdtRelacionados {
+    grid-area: cardPdtRelacionados;
+  }
+  #footer {
+    grid-area: footer;
+  }
+
+   #cardContProduto {
+    grid-area: cardContProduto;
+    display: flex;
+    justify-content: center;
+  }
+  #cardImgProduto {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  #cardInfCompra {
+    width: 50%;
+  }
+  
+  .cardInfProduto {
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  #especsProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .cardBtnComprar {
+  align-items: start;
+  
+}
+}

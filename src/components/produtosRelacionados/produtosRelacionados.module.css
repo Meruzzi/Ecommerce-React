@@ -1,0 +1,39 @@
+.imgPdtRel {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+} 
+
+.cardPdtRel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardPdt {
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px #888888;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 260px) {
+  .imgPdtRel {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+  max-height: 150px;
+} 
+}
+
+@media (max-width: 494px) {
+  .cardPdt:last-child {
+    padding-bottom: 50px;
+  }
+}

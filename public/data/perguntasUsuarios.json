@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "usuario": "João",
+    "data_publicacao": "18/08/2023",
+    "pergunta": "É gamer?",
+    "resposta": "Sim"
+  },
+  {
+    "id": 2,
+    "usuario": "Maria",
+    "data_publicacao": "17/06/2023",
+    "pergunta": "Tem caixa de som?",
+    "resposta": "Sim"
+     },
+  {
+    "id": 3,
+    "usuario": "Pedro",
+    "data_publicacao": "16/06/2023",
+    "pergunta": "Tem Wifi?",
+    "resposta": "Nao"
+  },
+  {
+    "id": 4,
+    "usuario": "Junior",
+    "data_publicacao": "16/06/2023",
+    "pergunta": "Quanto tempo esquenta?",
+    "resposta": "2 segundos."
+  }
+]
