@@ -26,7 +26,7 @@ render() {
       <div className={style.cardPdtRel}>
       {produtos.map(produto => (
       <div className={style.cardPdt} key={produto.id}>
-      <img className={style.imgPdtRel} src={produto.img} />
+      <img className={style.imgPdtRel} src={produto.img} title={produto.title} alt={produto.alt}/>
         <p>{produto.nome}</p>
         <p>R${produto.preco}</p>
       </div>

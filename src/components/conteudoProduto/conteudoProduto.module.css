@@ -30,4 +30,14 @@
   .btnComprar {
     margin: 5px 0;
   }
+
+  .conteudoCard {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 850px) {
+  .conteudoCard {
+    justify-content: center;
+  }
 }

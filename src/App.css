@@ -46,6 +46,7 @@ ul {
 }
 
 .cardInfProduto {
+  max-width: 1250px;
   border: 1px solid white;
   box-shadow: 5px 5px 15px #888888;
   padding: 5px;
@@ -93,43 +94,26 @@ main {
   grid-template-areas:
     'header header'
     'cardContProduto cardContProduto'
-    'cardDescricaoPdt cardDescricaoPdt'
-    'cardAvaliacaoPdt cardAvaliacaoPdt'
-    'cardPerguntas cardPerguntas'
-    'cardInfVendedor cardInfVendedor'
-    'cardPdtRelacionados cardPdtRelacionados'
+    'especsProduct especsProduct'
     'footer footer';
 }
+
+  #especsProduct {
+    grid-area: especsProduct;
+  }
   #header {
     grid-area: header;
-  }
-  #cardDescProduto {
-    grid-area: cardDescProduto;
-  }
-  #cardDescricaoPdt {
-    grid-area: cardDescricaoPdt;
-  }
-  #cardAvaliacaoPdt {
-    grid-area: cardAvaliacaoPdt;
-  }
-  #cardPerguntas {
-    grid-area: cardPerguntas;
-  }
-  #cardInfVendedor {
-    grid-area: cardInfVendedor;
-  }
-  #cardPdtRelacionados {
-    grid-area: cardPdtRelacionados;
   }
   #footer {
     grid-area: footer;
   }
 
-   #cardContProduto {
+  #cardContProduto {
     grid-area: cardContProduto;
     display: flex;
     justify-content: center;
   }
+  
   #cardImgProduto {
     display: flex;
     align-items: center;
@@ -152,9 +136,9 @@ main {
   #especsProduct {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
   }
-
+  
   .cardBtnComprar {
   align-items: start;
   

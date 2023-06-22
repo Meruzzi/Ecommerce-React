@@ -3,36 +3,48 @@
       "id": 1,
       "nome": "Frigideira Inox",
       "img": "https://dular.vteximg.com.br/arquivos/ids/5143878-1000-1000/image-edec57f99ea04cf0859e4319582ddcaa.jpg?v=637789717439630000",
-      "preco": 19.99
+      "preco": 19.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     },
     {
       "id": 2,
       "nome": "Frigideira Amarela",
       "img": "https://images.tcdn.com.br/img/img_prod/862230/frigideira_color_aluminio_antiaderente_22_cm_com_espatula_manga_multiflon_895_2_0dcc9f610d1893cbc535dcdcdab295cd.jpg",
-      "preco": 29.99
+      "preco": 29.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     },
     {
       "id": 3,
       "nome": "Frigideira Nova",
       "img": "https://casafreitas2.vteximg.com.br/arquivos/ids/175248-1000-1000/3366b7c0454705f1ec1cde2e50d14118-0.jpg?v=637372418815570000",
-      "preco": 39.99
+      "preco": 39.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     },
     {
       "id": 4,
       "nome": "Frigideira",
       "img": "https://dular.vteximg.com.br/arquivos/ids/5143878-1000-1000/image-edec57f99ea04cf0859e4319582ddcaa.jpg?v=637789717439630000",
-      "preco": 49.99
+      "preco": 49.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     },
     {
       "id": 5,
       "nome": "Frigideira Prata",
       "img": "https://assets.tramontina.com.br/upload/tramon/imagens/CUT/20891036PDM001G.jpg",
-      "preco": 59.99
+      "preco": 59.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     },
     {
       "id": 6,
       "nome": "Frigideira",
       "img": "https://images.tcdn.com.br/img/img_prod/1110727/frigideira_paellera_teflon_nr_34_real_8634_89_1_69cc83fd5dfd9cf9000d9bbfa1ecc1d3.jpg",
-      "preco": 69.99
+      "preco": 69.99,
+      "alt": "Frigideira",
+      "title": "Frigideira"
     }
 ]
